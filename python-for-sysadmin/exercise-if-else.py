@@ -9,4 +9,4 @@ elif user['admin'] and user['active']:
     print(f"ACTIVE - (ADMIN) {user['name']}")
 else:
     print(user['name'])
-
+//
