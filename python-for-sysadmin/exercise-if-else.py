@@ -1,5 +1,5 @@
 #!/usr/bin/env python3.6
-user = {'admin': True, 'active': True, 'name':'allan'}
+user = {'admin': False, 'active': True, 'name':'allan'}
 
 if user['admin'] and not user['active']:
     print(f"(ADMIN) {user['name']}")
